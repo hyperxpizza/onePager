@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Meta tags TODO!!!!-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="utf-8">
+        <meta name="description" content="#" />
+
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <!--Custom css responsive TODO!!!-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="personal.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="mywork.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300|Playfair+Display|Staatliches" rel="stylesheet">
+
+
+        <!--Favicon STILL TODO-->
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!--Title-->
+        <title>Wojciech Frackowski</title>
+
+
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <!--Languages TODO!!!-->
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+            <div class="container">
+              <a id="my-name" class="navbar-brand" href="index.html">Wojciech Frackowski</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a id="about-me" class="nav-link scroll-link" href="#personal">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="my-work" class="nav-link scroll-link" href="#area-2">My Work</a>
+                        </li>
+                        <li id="contact" class="nav-item">
+                            <a class="nav-link scroll-link" href="#area-3">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Language</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                    <a class="dropdown-item" href="#de"><span class="flag-icon flag-icon-en"> </span>  English</a>
+                                    <a class="dropdown-item" href="#de"><span class="flag-icon flag-icon-de"> </span>  Deutsch</a>
+                                    <a class="dropdown-item" href="#pl"><span class="flag-icon flag-icon-pl"> </span>  Polski</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+          </nav>
+
+         <!--Personal-->
+         <div id="personal" class="top-content">
+            <div class="inner-bg">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 text">
+                            <img class="profile-img" src="img/profile.png">
+                            <h1>Hello, I'm Wojtek.</h1>
+                            <div class="description">
+                            	<p>
+	                            	Welcome to my website.
+                            	</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!--About Me-->
+        <div id="area-1" class="area-1-container area-container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col area-1-box">
+                            <h3>About Me</h3>
+                            <hr />
+                            <div class="col info">
+                                <p class="medium-paragraph">
+                                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--My Work-->
+        <!--Hover Boxes TODO!!! + animations -->
+        <div id="area-2" class="area-2-container area-container ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col area-2 area-description">
+                        <h2>My Work</h2>
+                        <hr />
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col-md mywork">
+                              <h3>Commercial Work</h3>
+                        </div>    
+                    
+                        <div class="col-md mywork">
+                                <h3>Other Projects</h3>
+                            </div>
+                        </div>    
+                </div>
+        </div>
+
+        <!--Contact-->
+        <div id="area-3" class="area-3-container area-container area-container-bg-white">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr />
+                </div>
+            </div>
+            <form id="contact-form" method="post" action="#" role="form">
+
+            <div class="messages"></div>
+
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                                <label for="form_topic">Topic *</label>
+                                <input id="form_topic" type="text" name="topic" class="form-control" placeholder="Please enter the Topic*" required="required" data-error="Topic is required.">
+                                <div class="help-block with-errors"></div>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+              
+              
+        <!--Footer-->
+        <footer class="text-center">
+            <div class="footer-below">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                                Copyright &copy;<a href="index.html"> Wojciech Frackowski 2019</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+          
+        
+    </body>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!--Custom JS-->
+    <script src="scroll.js"></script>
+
+</html>

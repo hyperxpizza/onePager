@@ -1,0 +1,73 @@
+/** General **/
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+    line-height: 30px;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+/** All areas **/
+.area-container{ 
+    margin: 0 auto; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.area-description{ 
+    margin-top: 60px; 
+    padding-bottom: 10px; 
+}
+
+.area-description p{ 
+    margin-top: 20px; 
+    padding: 0 120px; 
+}
+
+
+/** Navbar **/
+
+.navbar{
+    background: #285172;
+    backface-visibility: hidden;
+}
+
+.navbar-brand{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+.nav-item{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+/** About Me **/
+.area-1-box{
+    margin-top: 30px;
+    
+
+}
+
+.area-1-box h3{
+    text-align: center;
+}
+
+
+
+
